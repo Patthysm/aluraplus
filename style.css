@@ -95,3 +95,47 @@ body{
 .botao__secundario{
     display: inline-block;
 }
+
+.container__descricao{
+    padding: 2rem;
+}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos__titulo{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+.lista__dispositivos{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin: 5rem 0;
+}
+.rodape {
+    text-align: center;
+    margin: 5rem 3rem;}
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 3rem;
+    list-style-type: none;
+}
+.lista__links a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin: 1rem;
+    font-size: 0.9rem;
+}
+
+.rodape__paragrafo{
+    margin: 1.5rem 2rem;
+    padding: 0 1rem;
+    text-align: center;
+    color: var(--branco-principal); 
+    font-size: 0.8rem;   
+}
