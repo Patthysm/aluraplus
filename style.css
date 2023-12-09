@@ -5,7 +5,8 @@
     --cor-de-fundo: #00030C;
     --font-principal: 'Inter';
     --cor-paragrafos: #f6f6f6;
-    --hoover-principal:#5fa3f7;
+    --efeito-botao-principal:#2b86f6;
+    --efeito-links: rgb(15, 218, 241) ;
 }
 
 *{
@@ -54,7 +55,7 @@ body{
 }
 
 .botao__principal:hover{
-   background-color: var(--hoover-principal);
+   background-color: var(--efeito-botao-principal);
    color: var(--cor-de-fundo);
    padding: 4%;
 }
@@ -151,3 +152,11 @@ body{
     color: var(--branco-principal); 
     font-size: 0.8rem;   
 }
+
+.lista__links a:hover{
+    color: var(--azul-botao);
+}
+.lista__links a:active{
+    color: var(--efeito-links);
+}
+    
