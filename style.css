@@ -159,4 +159,37 @@ body{
 .lista__links a:active{
     color: var(--efeito-links);
 }
+
+@media screen and (max-width: 667px)  {
+    .container{
+        display: block;
+        background-image: none;
+    }
+    .imagem__primeira{
+        width: 50vw;
+    }
+    .container__caixa{
+        margin: 2rem 2rem;
+    }
+    .secundario{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .container__adicional{
+        height: 50vh;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: -15% 0 10% 0;
+    }
+    .imagem__secundario{
+        width: 50vw;
+    }
+    .lista__dispositivos{
+        display: block;
+    }
+    .rodape__lista{
+        display: block;
+    }
     
+}
